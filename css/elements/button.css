@@ -1,0 +1,25 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 40px;
+  background-color: rgb(37, 0, 249);
+  border: 1px solid rgb(37, 0, 249);
+  border-radius: 50px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: rgb(37, 0, 249);
+}
+
+.btn:active {
+  box-shadow: 0 0 3px 1px rgb(37, 0, 249);
+  background-color: transparent;
+  color: rgb(37, 0, 249);
+}
