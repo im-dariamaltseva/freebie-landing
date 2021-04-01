@@ -1,0 +1,134 @@
+.wrapper {
+    width: 1200px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 90px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    margin-right: 57px;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+
+.header__nav-list-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.header__nav-link {
+    position: relative;
+    font-size: 16px;
+    color: rgb(36, 47, 81);
+    line-height: 1;  
+}
+
+.header__nav-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    font-size: 16px;
+    background-color: rgb(36, 47, 81);
+    transition: width .3s ease;
+}
+
+.header__nav-link:hover::after {
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    padding-top: 250px;
+    background-color: rgb(249, 251, 252);
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.hero__container-item {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.hero__ribbon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero__ribbon-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: yellow;
+}
+
+.hero__ribbon-text {
+    background-color: lightgray;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: none;
+    width: 23px;
+    padding: 1px 3px;
+}
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 40px;
+    background-color: rgb(37, 0, 249);
+    border: 1px solid rgb(37, 0, 249);
+    border-radius: 50px;      
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;    
+    transition: color .3s ease, background-color .3s ease, box-shadow .3s ease;  
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: rgb(37, 0, 249);    
+}
+
+.btn:active {
+    box-shadow: 0 0 3px 1px rgb(37, 0, 249);
+    background-color: transparent;
+    color: rgb(37, 0, 249);  
+}
