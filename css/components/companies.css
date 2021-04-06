@@ -1,0 +1,18 @@
+.companies__container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.companies__tittle {
+  color: rgb(36, 47, 81);
+  text-align: center;
+  padding-top: 108px;
+  padding-bottom: 70px;
+  line-height: 1.75;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.companies__list {
+  display: flex;
+}

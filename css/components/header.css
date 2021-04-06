@@ -34,9 +34,6 @@
 
 .header__nav-link {
   position: relative;
-  font-size: 16px;
-  color: rgb(36, 47, 81);
-  line-height: 1;
 }
 
 .header__nav-link::after {

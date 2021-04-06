@@ -57,6 +57,20 @@
   line-height: 1.556;
 }
 
+.hero__action {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -13px;
+  margin-right: -13px;
+}
+
+.hero__action-item {
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1025px) {
   .hero__container {
     margin-left: -15px;
