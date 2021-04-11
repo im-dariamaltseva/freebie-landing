@@ -1,6 +1,8 @@
 .hero {
   background: url("../../img/hero-banner.png") 0 100% no-repeat;
   background-size: cover;
+  padding-top: 23px;
+  padding-bottom: 16px;
 }
 
 .hero__container {
@@ -49,12 +51,15 @@
   color: rgb(36, 47, 81);
   font-weight: bold;
   line-height: 1.25;
+  padding-top: 13px;
+  padding-bottom: 20px;
 }
 
 .hero__about {
   font-size: 18px;
   color: rgb(97, 99, 104);
   line-height: 1.556;
+  padding-bottom: 37px;
 }
 
 .hero__action {
