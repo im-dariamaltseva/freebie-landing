@@ -1,0 +1,130 @@
+.benefits__title {
+  position: relative;
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.benefits__title::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(75, 74, 72);
+}
+
+.benefits__subtitle {
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+  font-size: 16px;
+}
+
+.benefits__item h3 {
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+.benefits__item:nth-of-type(1) h3 {
+  color: rgb(245, 87, 103);
+}
+
+.benefits__item:nth-of-type(2) h3 {
+  color: rgb(37, 99, 255);
+}
+
+.benefits__item:nth-of-type(3) h3 {
+  color: rgb(64, 151, 95);
+}
+
+.benefits__item p {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+.benefits__item img {
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .benefits__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 114px;
+    bottom: 0;
+  }
+
+  .benefits__title,
+  .benefits__subtitle {
+    width: 50%;
+  }
+
+  .benefits__title::after {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+  }
+
+  .benefits__title {
+    padding-right: 78px;
+    font-size: 40px;
+  }
+
+  .benefits__list {
+    display: flex;
+  }
+
+  .benefits__subtitle {
+    padding-left: 47px;
+  }
+
+  .benefits__item {
+    align-items: center;
+    padding-right: 118px;
+  }
+
+  .benefits__item img {
+    padding-bottom: 33px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .benefits__title::after {
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+
+  .benefits__title {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+
+  .benefits__subtitle {
+    padding-top: 20px;
+  }
+
+  .benefits__item h3 {
+    line-height: 1.35;
+  }
+
+  .benefits__header {
+    padding-bottom: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 550px;
+  }
+
+  .benefits__item {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .benefits__item img {
+    padding-right: 20px;
+  }
+}
