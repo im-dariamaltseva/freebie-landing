@@ -1,0 +1,145 @@
+.ultimate__title {
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+}
+
+.ultimate__subtitle {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+.ultimate__container {
+  padding-top: 57px;
+}
+
+.ultimate__item h3 {
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.ultimate__item p {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+@media screen and (max-width: 992px) {
+  .ultimate {
+    padding-top: 80px;
+  }
+
+  .ultimate__title {
+    font-size: 28px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .ultimate__subtitle {
+    text-align: center;
+    padding-bottom: 55px;
+  }
+
+  .ultimate__container {
+    padding-top: 75px;
+    padding-bottom: 35px;
+  }
+
+  .ultimate__item {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ultimate__item img {
+    text-align: center;
+    padding-bottom: 13px;
+  }
+
+  .ultimate__item h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .ultimate__item p {
+    padding-bottom: 32px;
+    text-align: center;
+  }
+
+  .ultimate__icon {
+    padding-top: 110px;
+    position: absolute;
+  }
+
+  .ultimate__action {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ultimate {
+    position: relative;padding-top: 20px;
+  }
+
+  .ultimate__container {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .ultimate__container-item--content {
+    width: 58.3%;
+  }
+
+  .ultimate__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .ultimate__item {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .ultimate__icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44.125vw;
+    padding-top: 116px;
+  }
+
+  .ultimate__title {
+    padding-bottom: 14px;
+    font-size: 36px;
+    width: 325px;
+  }
+
+  .ultimate__subtitle {
+    width: 398px;
+    padding-bottom: 58px;
+  }
+
+  .ultimate__item h3 {
+    padding-bottom: 14px;
+    padding-top: 33px;
+  }
+
+  .ultimate__item p {
+    padding-bottom: 56px;
+  }
+
+  .ultimate__item img {
+    margin: 0;
+  }
+}
+

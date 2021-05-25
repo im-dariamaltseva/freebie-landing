@@ -59,13 +59,15 @@
 
   .design__title {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     font-size: 28px;
   }
 
   .design__subtitle {
     text-align: center;
+    max-width: 650px;
     padding-bottom: 40px;
+    margin: 0 auto;
   }
 
   .design__action {

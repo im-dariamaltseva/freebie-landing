@@ -44,8 +44,8 @@
   }
 
   .reasons__title {
-    padding-bottom: 40px;
     font-size: 28px;
+    padding-bottom: 40px;
   }
 
   .reasons__subtitle {
@@ -53,9 +53,21 @@
   }
 
   .reasons__item h3 {
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 12px;
+    padding-bottom: 20px;
   }
+}
+
+@media screen and (max-width: 984px) {
+  .reasons__subtitle {
+    max-width: 650px;
+  }
+
+  .reasons__title {
+    font-size: 28px;
+  }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -70,7 +82,7 @@
   }
 
   .reasons__title {
-    padding-bottom: 40px;
+    padding-bottom: 28px;
   }
 
   .reasons__subtitle {
@@ -82,7 +94,7 @@
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 80px;
-  }  
+  }
 
   .reasons__item h3 {
     padding-top: 30px;
