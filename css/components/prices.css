@@ -1,0 +1,156 @@
+.prices__title {
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+  text-align: center;
+}
+
+.prices__subtitle {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+  text-align: center;
+}
+
+.prices__switch {
+  text-align: center;
+}
+
+.prices__card-head {
+  background-image: linear-gradient(
+    90deg,
+    rgb(244, 247, 249) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  padding-top: 71px;
+}
+
+.prices__card--checked {
+  box-shadow: 10px 10px 15px 0px rgba(34, 60, 80, 0.07);
+  text-align: center;
+  max-height: 556px;
+  width: 315px;
+  margin-right: 37px;
+}
+
+.prices__card--unchecked {
+  border-width: 2px;
+  border-color: rgb(235, 235, 235);
+  border-style: solid;
+  border-radius: 6px;
+  text-align: center;
+  width: 315px;
+}
+
+.prices__card {
+  display: inline-block;
+  align-items: center;
+}
+
+.prices__card-body {
+  align-items: center;
+}
+
+.prices__card-pro,
+.prices__card-business {
+  font-size: 16px;
+  color: rgb(153, 156, 165);
+  line-height: 3;
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.prices__month {
+  font-size: 60px;
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 0.967;
+  text-align: center;
+}
+
+.prices__duration {
+  font-size: 18px;
+  color: rgb(153, 156, 165);
+  line-height: 1.556;
+  text-align: center;
+}
+
+.prices__rank {
+  font-size: 20px;
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  padding-top: 19px;
+}
+
+.prices__description {
+  font-size: 16px;
+  color: rgb(153, 156, 165);
+  line-height: 1.75;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+.prices__action {
+  padding-bottom: 28px;
+}
+
+.prices__trail {
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .prices {
+    padding-top: 176px;
+  }
+
+  .prices__title {
+    font-size: 36px;
+    max-width: 580px;
+    padding-bottom: 27px;
+    margin: 0 auto;
+  }
+
+  .prices__subtitle {
+    max-width: 635px;
+    padding-bottom: 75px;
+    margin: 0 auto;
+  }
+  
+  .prices__list {
+    justify-content: center;
+    display: flex;
+  }
+
+  .prices__switch {
+    padding-bottom: 39px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .prices {
+    padding-top: 650px;
+  }
+
+  .prices__title {
+    font-size: 28px;
+    padding-bottom: 17px;
+  }
+
+  .prices__subtitle {
+    padding-bottom: 40px;
+  }
+
+  .prices__switch {
+    padding-bottom: 55px;
+  }
+
+  .prices__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+}

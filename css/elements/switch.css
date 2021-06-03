@@ -1,0 +1,66 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 284px;
+  height: 57px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch__control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.switch__control:before {
+  position: absolute;
+  content: "";
+  height: 49px;
+  width: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(37, 0, 249);
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+input:checked + .switch__control {
+  background-color: #d3d8dd17;
+}
+
+input:focus + .switch__control {
+  box-shadow: 0 0 1px #c5c3c3;
+}
+
+input:checked + .switch__control:before {
+  transform: translateX(134px);
+}
+
+.switch__text {
+  position: relative;
+  flex: 1;
+  color: rgba(97, 99, 104, 0.749);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.75;
+}
+
+input:checked + .switch__control .switch__text--checked,
+input:not(:checked) + .switch__control .switch__text--unchecked {
+  color: rgb(255, 255, 255);
+}
+

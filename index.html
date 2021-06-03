@@ -13,15 +13,17 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/elements/button.css" />
     <link rel="stylesheet" href="./css/elements/link.css" />
+    <link rel="stylesheet" href="./css/elements/switch.css" />
     <link rel="stylesheet" href="./css/components/base.css" />
     <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/hero.css" />
     <link rel="stylesheet" href="./css/components/companies.css" />
-    <link rel="stylesheet" href="css/components/features.css" />
-    <link rel="stylesheet" href="css/components/benefits.css" />
-    <link rel="stylesheet" href="css/components/design.css" />
-    <link rel="stylesheet" href="css/components/reasons.css" />
-    <link rel="stylesheet" href="css/components/ultimate.css" />
+    <link rel="stylesheet" href="./css/components/features.css" />
+    <link rel="stylesheet" href="./css/components/benefits.css" />
+    <link rel="stylesheet" href="./css/components/design.css" />
+    <link rel="stylesheet" href="./css/components/reasons.css" />
+    <link rel="stylesheet" href="./css/components/ultimate.css" />
+    <link rel="stylesheet" href="./css/components/prices.css" />
   </head>
   <body>
     <header class="header">
@@ -430,6 +432,75 @@
             </div>
           </div>
         </div>
+      </section>
+      <section class="prices">
+        <div class="wrapper">
+          <h2 class="prices__title">
+            Get awesome features, without extra charges
+          </h2>
+          <p class="prices__subtitle">
+            The rise of mobile devices transforms the way we consume information
+            entirely and the world`s most elevant channels such as Facebook
+          </p>
+          <div class="prices__switch">
+            <label class="switch">
+              <input type="checkbox" name="annually" />
+              <span class="switch__control">
+                <span class="switch__text switch__text--unchecked"
+                  >Monthly</span
+                >
+                <span class="switch__text switch__text--checked">Annually</span>
+              </span>
+            </label>
+          </div>
+        </div>
+        <ul class="prices__list">
+          <li class="prices__item">
+            <div class="prices__card--checked">
+              <div class="prices__card-head">
+                <a class="prices__month">$0</a>
+                <a class="prices__duration">/month</a>
+                <p class="prices__rank">Business Class</p>
+                <p class="prices__description">For small teams or office</p>
+              </div>
+              <div class="prices__card-body">
+                <ul class="prices__card-business">
+                  <li>Drag & Drop Builder</li>
+                  <li>1,000`s of Templates</li>
+                  <li>Blog Support Tools</li>
+                  <li>eCommerce Store</li>
+                </ul>
+                <div class="prices__action">
+                  <a href="#" class="btn">Start free trail</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="prices__item">
+            <div class="prices__card--unchecked">
+              <div class="prices__card-head">
+                <a class="prices__month">$99</a>
+                <a class="prices__duration">/month</a>
+                <p class="prices__rank">Pro Master</p>
+                <p class="prices__description">For Best opportunities</p>
+              </div>
+              <div class="prices__card-body">
+                <ul class="prices__card-pro">
+                  <li>Drag & Drop Builder</li>
+                  <li>1,000`s of Templates</li>
+                  <li>Blog Support Tools</li>
+                  <li>eCommerce Store</li>
+                </ul>
+                <div class="prices__action">
+                  <a href="#" class="btn">Subscribe now</a>
+                </div>
+                <div class="prices__trail">
+                <a href="url">Or Start 14 days trail</a>
+              </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
   </body>
