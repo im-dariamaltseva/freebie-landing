@@ -30,7 +30,7 @@
   text-align: center;
   max-height: 556px;
   width: 315px;
-  margin-right: 37px;
+  max-width: 100%;
 }
 
 .prices__card--unchecked {
@@ -40,6 +40,7 @@
   border-radius: 6px;
   text-align: center;
   width: 315px;
+  max-width: 100%;
 }
 
 .prices__card {
@@ -130,7 +131,7 @@
 
 @media screen and (max-width: 992px) {
   .prices {
-    padding-top: 650px;
+    padding-top: 900px;
   }
 
   .prices__title {

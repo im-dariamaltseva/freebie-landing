@@ -1,0 +1,162 @@
+.client__title {
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.client__subtitle {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+.client__rating img {
+  display: inline-flex;
+  padding-bottom: 17px;
+}
+
+.client__user {
+  font-size: 20px;
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.625;
+  padding-bottom: 10px;
+}
+
+.client__comment {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+.client__slider {
+  position: relative;
+}
+
+.client__slide {
+  justify-content: flex-end;
+}
+
+.client__name {
+  display: flex;
+  padding-top: 59px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.client__name img {
+  padding-right: 30px;
+  margin: 0;
+}
+
+.client__initials {
+  display: flex;
+  font-size: 18px;
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.6;
+  padding-bottom: 2px;
+}
+
+.client__position {
+  font-size: 18px;
+  color: rgb(97, 99, 104);
+  line-height: 1.556;
+}
+
+.client__slider-controls {
+  display: flex;
+  right: 0;
+  bottom: 0;
+}
+
+.client__round-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.client__slider-controls-item-left {
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.client__slider-controls-item-left::after {
+  content: "";
+  background-color: rgba(222, 225, 230, 0.712);
+  width: 1px;
+  height: 25px;
+  left: 21%;
+  top: 26%;
+  transform: translateX(-50%);
+  position: relative;
+}
+
+.client__slider-controls-item-right {
+  display: inline-flex;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .client {
+    padding-top: 131px;
+  }
+
+  .client__title {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 14px;
+  }
+
+  .client__subtitle {
+    padding-bottom: 23px;
+    text-align: center;
+  }
+
+  .client__icon img {
+    padding-bottom: 40px;
+  }
+
+  .client__slider-controls {
+    justify-content: center;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .client {
+    padding-top: 261px;
+  }
+
+  .client__container {
+    display: flex;
+  }
+
+  .client__title {
+    font-size: 40px;
+    padding-bottom: 22px;
+  }
+
+  .client__subtitle {
+    padding-bottom: 38px;
+  }
+
+  .client__container-item {
+    width: 50%;
+  }
+
+  .client__icon img {
+    position: absolute;
+    width: 50%;
+    margin: 0;
+    left: 0;
+    padding-top: 82px;
+  }
+
+  .client__rating img {
+    justify-content: left;
+  }
+
+  .client__slider-controls {
+    position: absolute;
+  }
+}

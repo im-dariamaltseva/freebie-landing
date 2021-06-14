@@ -1,0 +1,28 @@
+.round-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  font-size: 16px;
+  color: rgba(222, 225, 230, 0.712);
+  border: 1px solid rgba(222, 225, 230, 0.712);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.round-button:hover {
+  background-color: rgb(239, 243, 248);
+  color: rgb(37, 0, 249);
+}
+
+.round-button:active {
+  color: rgb(193, 202, 216);
+  background-color: transparent;
+  border: 1px solid rgba(222, 225, 230, 0.712);
+}

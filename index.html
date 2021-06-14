@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/elements/button.css" />
     <link rel="stylesheet" href="./css/elements/link.css" />
     <link rel="stylesheet" href="./css/elements/switch.css" />
+    <link rel="stylesheet" href="./css/elements/round-button.css" />
+    <link rel="stylesheet" href="./css/components/accordion.css" />
     <link rel="stylesheet" href="./css/components/base.css" />
     <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/hero.css" />
@@ -24,6 +26,8 @@
     <link rel="stylesheet" href="./css/components/reasons.css" />
     <link rel="stylesheet" href="./css/components/ultimate.css" />
     <link rel="stylesheet" href="./css/components/prices.css" />
+    <link rel="stylesheet" href="./css/components/client.css" />
+    <link rel="stylesheet" href="./css/components/questions.css" />
   </head>
   <body>
     <header class="header">
@@ -453,54 +457,259 @@
               </span>
             </label>
           </div>
+          <ul class="prices__list">
+            <li class="prices__item">
+              <div class="prices__card--checked">
+                <div class="prices__card-head">
+                  <a class="prices__month">$0</a>
+                  <a class="prices__duration">/month</a>
+                  <p class="prices__rank">Business Class</p>
+                  <p class="prices__description">For small teams or office</p>
+                </div>
+                <div class="prices__card-body">
+                  <ul class="prices__card-business">
+                    <li>Drag & Drop Builder</li>
+                    <li>1,000`s of Templates</li>
+                    <li>Blog Support Tools</li>
+                    <li>eCommerce Store</li>
+                  </ul>
+                  <div class="prices__action">
+                    <a href="#" class="btn">Start free trail</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="prices__item">
+              <div class="prices__card--unchecked">
+                <div class="prices__card-head">
+                  <a class="prices__month">$99</a>
+                  <a class="prices__duration">/month</a>
+                  <p class="prices__rank">Pro Master</p>
+                  <p class="prices__description">For Best opportunities</p>
+                </div>
+                <div class="prices__card-body">
+                  <ul class="prices__card-pro">
+                    <li>Drag & Drop Builder</li>
+                    <li>1,000`s of Templates</li>
+                    <li>Blog Support Tools</li>
+                    <li>eCommerce Store</li>
+                  </ul>
+                  <div class="prices__action">
+                    <a href="#" class="btn">Subscribe now</a>
+                  </div>
+                  <div class="prices__trail">
+                    <a href="url">Or Start 14 days trail</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <ul class="prices__list">
-          <li class="prices__item">
-            <div class="prices__card--checked">
-              <div class="prices__card-head">
-                <a class="prices__month">$0</a>
-                <a class="prices__duration">/month</a>
-                <p class="prices__rank">Business Class</p>
-                <p class="prices__description">For small teams or office</p>
+      </section>
+      <section class="client">
+        <div class="wrapper">
+          <div class="client__container">
+            <div class="client__container-item">
+              <div class="client__icon">
+                <img src="img/client__people.png" alt="people" />
               </div>
-              <div class="prices__card-body">
-                <ul class="prices__card-business">
-                  <li>Drag & Drop Builder</li>
-                  <li>1,000`s of Templates</li>
-                  <li>Blog Support Tools</li>
-                  <li>eCommerce Store</li>
-                </ul>
-                <div class="prices__action">
-                  <a href="#" class="btn">Start free trail</a>
+            </div>
+            <div class="client__container-item">
+              <div class="client__content">
+                <h2 class="client__title">
+                  Meet Client Satisfaction by using product
+                </h2>
+                <p class="client__subtitle">
+                  The rise of mobile devices transforms the way we consume
+                  elevant channels such as Facebook
+                </p>
+                <div class="client__slider">
+                  <div class="client__slide">
+                    <div class="client__rating">
+                      <img src="img/client-5stars.png" alt="5 stars" />
+                    </div>
+                    <h2 class="client__user">User friendly & Customizable</h2>
+                    <p class="client__comment">
+                      Bring to the table win-win survival strategies to ensure
+                      proactive domination. At the end of the day, going
+                      forward, a new normal that has evolvedfrom generation X is
+                      in the runway heading towards a streamlined cloud
+                      solution. User generated content in real-time will have
+                      multiple touchpoints for offshoring.
+                    </p>
+                    <div class="client__name">
+                      <img src="img/client-man.png" alt="man" />
+                      <div>
+                        <h3 class="client__initials">Zoltan Nemeth</h3>
+                        <p class="client__position">CEO of Pixler Lab</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client__slider-controls">
+                    <div class="client__slider-controls-item-left">
+                      <button type="button" class="round-button">🠈</button>
+                    </div>
+                    <div class="client__slider-controls-item-right">
+                      <button type="button" class="round-button">🠊</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </li>
-          <li class="prices__item">
-            <div class="prices__card--unchecked">
-              <div class="prices__card-head">
-                <a class="prices__month">$99</a>
-                <a class="prices__duration">/month</a>
-                <p class="prices__rank">Pro Master</p>
-                <p class="prices__description">For Best opportunities</p>
-              </div>
-              <div class="prices__card-body">
-                <ul class="prices__card-pro">
-                  <li>Drag & Drop Builder</li>
-                  <li>1,000`s of Templates</li>
-                  <li>Blog Support Tools</li>
-                  <li>eCommerce Store</li>
-                </ul>
-                <div class="prices__action">
-                  <a href="#" class="btn">Subscribe now</a>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="wrapper">
+          <div class="questions__container">
+            <h2 class="questions__title">Frequently asked questions</h2>
+            <p class="questions__subtitle">
+              The rise of mobile devices transforms the way we consume
+              information entirely and the world`s most elevant channels such as
+              Facebook.
+            </p>
+            <div class="accordion">
+              <div class="accordion__panel">
+                <div class="accordion__panel-head">
+                  <p class="accordion__panel-title">
+                    How to contact with riders emergency?
+                  </p>
+                  <button type="button" class="accordion__panel-btn"></button>
                 </div>
-                <div class="prices__trail">
-                <a href="url">Or Start 14 days trail</a>
+                <div class="accordion__panel-body">
+                  <p>
+                    Leverage agile frameworks to provide a robust synopsis for
+                    high level overviews. Iterative approaches to corporate
+                    strategy foster collaborative thinking to further the
+                    overall value proposition. Organically grow the holistic
+                    world view of disruptive innovation via workplace diversity
+                    and empowerment.
+                  </p>
+                  <p>
+                    Bring to the table win-win survival strategies to ensure
+                    proactive domination. At the end of the day, going forward,
+                    a new normal that has evolved from generation X is on the
+                    runway heading towards a streamlined cloud solution. User
+                    generated content in real-time will have multiple
+                    touchpoints for offshoring.
+                  </p>
+                </div>
               </div>
+              <div class="accordion__panel">
+                <div class="accordion__panel-head">
+                  <p class="accordion__panel-title">
+                    App installation failed, how to update system information?
+                  </p>
+                  <button type="button" class="accordion__panel-btn">+</button>
+                </div>
+                <div class="accordion__panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi, error. Iure fugit quo saepe error accusamus velit
+                    eaque nesciunt facilis tempore consectetur, est ipsam
+                    perferendis reprehenderit magnam. Excepturi, labore quasi.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion__panel">
+                <div class="accordion__panel-head">
+                  <p class="accordion__panel-title">
+                    Website response taking time, how to improve?
+                  </p>
+                  <button type="button" class="accordion__panel-btn">+</button>
+                </div>
+                <div class="accordion__panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi quia aspernatur consequuntur ab dolor minima odit ea,
+                    tempore, eligendi iure saepe illo dicta voluptatem itaque
+                    labore quos iste nulla perferendis. Nesciunt veritatis eius
+                    nostrum reiciendis minima? Culpa unde velit placeat quasi
+                    laborum quia facere perspiciatis nam nostrum omnis, dolores
+                    totam possimus autem quis dicta perferendis. Fugit
+                    blanditiis facere non mollitia. Corporis provident quia
+                    animi aliquam soluta suscipit, placeat doloremque.
+                    Consequatur quidem laborum iste corporis nemo in assumenda.
+                    Officiis assumenda, provident, ipsum quasi porro a expedita,
+                    quisquam incidunt omnis error eum! Quae, aut culpa
+                    necessitatibus quas in at itaque? Voluptatem fugit nesciunt,
+                    recusandae, quidem cumque, a quis iste tempore id odit
+                    architecto saepe inventore illum quisquam magni doloremque.
+                    Quos, architecto magni. Dicta, dolorum nihil recusandae
+                    eaque aliquid quidem. Itaque tempore odio, aliquid illo
+                    quaerat, ea, et iure ex consectetur obcaecati similique
+                    voluptatibus rem aspernatur quisquam beatae nulla autem
+                    distinctio aut cum.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion__panel">
+                <div class="accordion__panel-head">
+                  <p class="accordion__panel-title">
+                    New update fixed all bug and issues?
+                  </p>
+                  <button type="button" class="accordion__panel-btn">+</button>
+                </div>
+                <div class="accordion__panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi quia aspernatur consequuntur ab dolor minima odit ea,
+                    tempore, eligendi iure saepe illo dicta voluptatem itaque
+                    labore quos iste nulla perferendis. Nesciunt veritatis eius
+                    nostrum reiciendis minima? Culpa unde velit placeat quasi
+                    laborum quia facere perspiciatis nam nostrum omnis, dolores
+                    totam possimus autem quis dicta perferendis. Fugit
+                    blanditiis facere non mollitia. Corporis provident quia
+                    animi aliquam soluta suscipit, placeat doloremque.
+                    Consequatur quidem laborum iste corporis nemo in assumenda.
+                    Officiis assumenda, provident, ipsum quasi porro a expedita,
+                    quisquam incidunt omnis error eum! Quae, aut culpa
+                    necessitatibus quas in at itaque? Voluptatem fugit nesciunt,
+                    recusandae, quidem cumque, a quis iste tempore id odit
+                    architecto saepe inventore illum quisquam magni doloremque.
+                    Quos, architecto magni. Dicta, dolorum nihil recusandae
+                    eaque aliquid quidem. Itaque tempore odio, aliquid illo
+                    quaerat, ea, et iure ex consectetur obcaecati similique
+                    voluptatibus rem aspernatur quisquam beatae nulla autem
+                    distinctio aut cum.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion__panel">
+                <div class="accordion__panel-head">
+                  <p class="accordion__panel-title">
+                    How to contact with riders emergency?
+                  </p>
+                  <button type="button" class="accordion__panel-btn">+</button>
+                </div>
+                <div class="accordion__panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi quia aspernatur consequuntur ab dolor minima odit ea,
+                    tempore, eligendi iure saepe illo dicta voluptatem itaque
+                    labore quos iste nulla perferendis. Nesciunt veritatis eius
+                    nostrum reiciendis minima? Culpa unde velit placeat quasi
+                    laborum quia facere perspiciatis nam nostrum omnis, dolores
+                    totam possimus autem quis dicta perferendis. Fugit
+                    blanditiis facere non mollitia. Corporis provident quia
+                    animi aliquam soluta suscipit, placeat doloremque.
+                    Consequatur quidem laborum iste corporis nemo in assumenda.
+                    Officiis assumenda, provident, ipsum quasi porro a expedita,
+                    quisquam incidunt omnis error eum! Quae, aut culpa
+                    necessitatibus quas in at itaque? Voluptatem fugit nesciunt,
+                    recusandae, quidem cumque, a quis iste tempore id odit
+                    architecto saepe inventore illum quisquam magni doloremque.
+                    Quos, architecto magni. Dicta, dolorum nihil recusandae
+                    eaque aliquid quidem. Itaque tempore odio, aliquid illo
+                    quaerat, ea, et iure ex consectetur obcaecati similique
+                    voluptatibus rem aspernatur quisquam beatae nulla autem
+                    distinctio aut cum.
+                  </p>
+                </div>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
     </main>
   </body>

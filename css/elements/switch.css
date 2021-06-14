@@ -23,6 +23,7 @@
   background-color: white;
   transition: 0.4s;
   border-radius: 50px;
+  border: 1px solid rgba(222, 225, 230, 0.61);
   cursor: pointer;
 }
 
@@ -63,4 +64,3 @@ input:checked + .switch__control .switch__text--checked,
 input:not(:checked) + .switch__control .switch__text--unchecked {
   color: rgb(255, 255, 255);
 }
-

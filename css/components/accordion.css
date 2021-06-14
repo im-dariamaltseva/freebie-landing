@@ -1,0 +1,80 @@
+.accordion {
+  padding-top: 63px;
+}
+
+.accordion__panel {
+  margin-bottom: 10px;
+  background-color: rgb(245, 247, 250);
+}
+
+.accordion__panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion__panel-title {
+  font-size: 20px;
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.accordion__panel-body {
+  padding-top: 30px;
+  padding-bottom: 49px;
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+.accordion__panel-body p {
+  margin-bottom: 10px;
+}
+
+.accordion__panel-btn {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.accordion__panel-btn::before,
+.accordion__panel-btn::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(36, 47, 81);
+}
+
+.accordion__panel-btn::before {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+}
+
+.accordion__panel-btn::after {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+}
+
+@media screen and  (max-width: 992px) {
+  .accordion__panel {
+    padding: 20px 15px 16px 15px;
+  }
+}
+
+@media screen and  (min-width: 992px) {
+  .accordion__panel {
+    padding: 20px 38px 16px 49px;
+  }
+}
