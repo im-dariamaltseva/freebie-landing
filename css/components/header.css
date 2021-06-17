@@ -42,7 +42,7 @@
   width: 0;
   height: 3px;
   font-size: 16px;
-  background-color: rgb(36, 47, 81);
+  background-color: var(--primary-color);
   transition: width 0.3s ease;
 }
 

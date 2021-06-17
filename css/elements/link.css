@@ -5,11 +5,11 @@
 }
 
 .link--primary {
-  color: rgb(37, 0, 249);
+  color: var(--secondary-color);
 }
 
 .link--secondary {
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
 }
 
 .link--light {
@@ -17,13 +17,13 @@
 }
 
 .link--primary:hover {
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
 }
 
 .link--secondary:hover {
-  color: rgb(37, 0, 249);
+  color: var(--secondary-color);
 }
 
 .link--light:hover {
-  color: rgb(37, 0, 249);
+  color: var(--secondary-color);
 }

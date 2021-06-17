@@ -15,7 +15,7 @@
 
 .accordion__panel-title {
   font-size: 20px;
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.3;
 }
@@ -48,7 +48,7 @@
 .accordion__panel-btn::after {
   content: "";
   position: absolute;
-  background-color: rgb(36, 47, 81);
+  background-color: var(--primary-color);
 }
 
 .accordion__panel-btn::before {
@@ -67,13 +67,13 @@
   height: 100%;
 }
 
-@media screen and  (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .accordion__panel {
     padding: 20px 15px 16px 15px;
   }
 }
 
-@media screen and  (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .accordion__panel {
     padding: 20px 38px 16px 49px;
   }

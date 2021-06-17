@@ -1,5 +1,5 @@
 .prices__title {
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.278;
   text-align: center;
@@ -63,7 +63,7 @@
 
 .prices__month {
   font-size: 60px;
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 0.967;
   text-align: center;
@@ -78,7 +78,7 @@
 
 .prices__rank {
   font-size: 20px;
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.4;
   text-align: center;

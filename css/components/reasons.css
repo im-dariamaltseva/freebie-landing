@@ -1,5 +1,5 @@
 .reasons__title {
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.278;
 }
@@ -16,7 +16,7 @@
 
 .reasons__item h3 {
   font-size: 20px;
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.2;
 }
@@ -66,8 +66,6 @@
   .reasons__title {
     font-size: 28px;
   }
-
-
 }
 
 @media screen and (min-width: 768px) {

@@ -1,5 +1,5 @@
 .ultimate__title {
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.278;
 }
@@ -15,7 +15,7 @@
 }
 
 .ultimate__item h3 {
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.2;
 }
@@ -83,7 +83,8 @@
 
 @media screen and (min-width: 992px) {
   .ultimate {
-    position: relative;padding-top: 20px;
+    position: relative;
+    padding-top: 20px;
   }
 
   .ultimate__container {
@@ -142,4 +143,3 @@
     margin: 0;
   }
 }
-

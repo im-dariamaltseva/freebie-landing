@@ -1,6 +1,6 @@
 .benefits__title {
   position: relative;
-  color: rgb(36, 47, 81);
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 1.25;
 }
