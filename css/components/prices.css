@@ -118,10 +118,17 @@
     padding-bottom: 75px;
     margin: 0 auto;
   }
-  
+
   .prices__list {
     justify-content: center;
     display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .prices__item {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .prices__switch {

@@ -1,0 +1,92 @@
+.download {
+  padding-bottom: 48px;
+}
+
+.download__title {
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.208;
+  padding-bottom: 26px;
+}
+
+.download__subtitle {
+  font-size: 16px;
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+  padding-bottom: 46px;
+}
+
+.download__sources {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.download__sources a {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .download {
+    padding-top: 125px;
+  }
+
+  .download__title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .download__subtitle {
+    margin: 0 auto;
+    width: 635px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .download__sources {
+    justify-content: center;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .download__sources img {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .download {
+    padding-top: 125px;
+  }
+
+  .download__title {
+    font-size: 48px;
+  }
+
+  .download__subtitle {
+    width: 634px;
+    max-width: 100%;
+  }
+
+  .download__icon img {
+    width: 690px;
+    max-width: 100%;
+  }
+
+  .download__container {
+    display: flex;
+  }
+
+  .download__container-item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1496px) {
+  .download__icon img {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+  }
+}
